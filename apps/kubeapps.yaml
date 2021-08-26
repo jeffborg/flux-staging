@@ -15,4 +15,6 @@ spec:
     createNamespace: true
   interval: 1m0s
   targetNamespace: kubeapps
-
+  values:
+    frontend:
+      replicaCount: 1
