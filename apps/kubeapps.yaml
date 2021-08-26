@@ -16,6 +16,9 @@ spec:
   interval: 1m0s
   targetNamespace: kubeapps
   values:
+    postgresql:
+      replication:
+        enabled: false
     frontend:
       replicaCount: 1
     dashboard:
