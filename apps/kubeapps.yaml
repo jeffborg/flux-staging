@@ -16,6 +16,9 @@ spec:
   interval: 1m0s
   targetNamespace: kubeapps
   values:
+    ingress:
+      enabled: true
+      hostname: kubeapps.192.168.49.2.sslip.io 
     postgresql:
       replication:
         enabled: false
