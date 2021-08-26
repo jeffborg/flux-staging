@@ -18,3 +18,7 @@ spec:
   values:
     frontend:
       replicaCount: 1
+    dashboard:
+      replicaCount: 1
+    apprepository:
+      replicaCount: 1
